@@ -1,0 +1,37 @@
+.banner{
+    width: 100%;
+    height: auto;
+}
+h3.about-me{
+    text-align: center;
+}
+p.about-me-paragraph{
+    text-align:left ;
+}
+.about-me-img{
+    border: 4px;
+    align-self: center;
+    border-color: red;
+}
+.about-me-container{
+    background: darkgray;
+    padding: 10px;
+}
+.protect-container{
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    text-align: center;
+}
+.product-name{
+    font-weight:bold;
+    text-align: center;
+}
+.price{
+    font-weight: bold;
+    color: green;
+}
+.product-list{
+    margin: 20px;
+}
