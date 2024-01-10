@@ -35,3 +35,32 @@ p.about-me-paragraph{
 .product-list{
     margin: 20px;
 }
+.footer{
+    background-color: grey;
+    padding: 10px;
+    min-height: 25%;
+}
+.footer-p{
+    text-align: right;
+    color: black;
+}
+.footer-h{
+    text-align: center;
+    color: rgb(255, 112, 112);
+}
+.footer-about-me{
+    border-right: 5px solid black;
+    min-height: 25%;
+}
+.footer-use-link{
+    border-right: 5px solid black;
+    min-height: 25%;
+}
+.footer-contacts{
+    padding: 10px;
+    min-height: 25%;
+}
+
+.link{
+    color: red;
+}
