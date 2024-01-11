@@ -1,0 +1,12 @@
+.heading   {
+    text-align: center;
+    color: aliceblue;
+    
+}
+.contact-page-container{
+    background: rgb(216, 216, 216);
+}
+.h-div{
+    border: 3px solid aliceblue;
+    border-radius: 1px;
+}
