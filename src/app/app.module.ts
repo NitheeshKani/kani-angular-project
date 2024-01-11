@@ -8,6 +8,8 @@ import { AboutpageComponent } from './components/aboutpage/aboutpage.component';
 import { ShopdetailspageComponent } from './components/shopdetailspage/shopdetailspage.component';
 import { ShoplistpageComponent } from './components/shoplistpage/shoplistpage.component';
 import { ContactpageComponent } from './components/contactpage/contactpage.component';
+import { NavbarComponent } from './components/common/navbar/navbar.component';
+import { FooterComponent } from './components/common/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ContactpageComponent } from './components/contactpage/contactpage.compo
     AboutpageComponent,
     ShopdetailspageComponent,
     ShoplistpageComponent,
-    ContactpageComponent
+    ContactpageComponent,
+    NavbarComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
