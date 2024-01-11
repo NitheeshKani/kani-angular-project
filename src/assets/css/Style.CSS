@@ -1,76 +1,81 @@
-.banner{
-    width: 100%;
-    height: auto;
+.banner {
+  width: 100%;
+  height: auto;
 }
-h3.about-me{
-    text-align: center;
+h3.about-me {
+  text-align: center;
 }
-p.about-me-paragraph{
-    text-align:left ;
+p.about-me-paragraph {
+  text-align: left;
 }
-.about-me-img{
-    border: 4px;
-    align-self: center;
-    border-color: red;
+.about-me-img {
+  border: 4px;
+  align-self: center;
+  border-color: red;
 }
-.about-me-container{
-    background: darkgray;
-    padding: 10px;
+.about-me-container {
+  background: rgb(216, 216, 216);
+  padding: 10px;
 }
-.protect-container{
-    border: 3px solid gray;
-    padding: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-    text-align: center;
+.protect-container {
+  border: 3px solid gray;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(255, 244, 244);
 }
-.product-name{
-    font-weight:bold;
-    text-align: center;
-}
-.price{
-    font-weight: bold;
-    color: green;
-}
-.product-list{
-    margin: 20px;
-}
-.footer{
-    background-color: #343a40!important;
-    padding: 10px;
-    min-height: 25%;
-}
-.footer-p{
-    text-align: right;
-    color: rgb(201, 201, 201);
-}
-.footer-h{
-    text-align: center;
-    color: rgb(255, 112, 112);
-}
-.footer-about-me{
-    border-right: 5px solid black;
-    min-height: 25%;
-}
-.footer-use-link{
-    border-right: 5px solid black;
-    min-height: 25%;
-}
-.footer-contacts{
-    padding-left: 10px;
-    min-height: 25%;
+.protect-container:hover {
+  background-color: rgb(255, 178, 178);
 }
 
-.link{
-    color: red;
+.product-name {
+  font-weight: bold;
+  text-align: center;
+}
+.price {
+  font-weight: bold;
+  color: green;
+}
+.product-list {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: rgb(255, 244, 244);
+}
+.footer {
+  background-color: #343a40 !important;
+  padding: 10px;
+  min-height: 25%;
+}
+.footer-p {
+  text-align: right;
+  color: rgb(201, 201, 201);
+}
+.footer-h {
+  text-align: center;
+  color: rgb(255, 112, 112);
+}
+.footer-about-me {
+  border-right: 5px solid black;
+  min-height: 25%;
+}
+.footer-use-link {
+  border-right: 5px solid black;
+  min-height: 25%;
+}
+.footer-contacts {
+  padding-left: 10px;
+  min-height: 25%;
 }
 
-.side-p{
-    text-align:left;
-    color: rgb(201, 201, 201);
+.link {
+  color: red;
 }
 
-.footer-img{
-    width: 100px;
-    height: 100px;
+.side-p {
+  text-align: left;
+  color: rgb(201, 201, 201);
+}
+
+.footer-img {
+  width: 100px;
+  height: 100px;
 }
