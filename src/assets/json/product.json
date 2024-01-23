@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "productImg": "assets/img/products/sofa(1).png",
+    "productName": "Sofa",
+    "productDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "tags": "Premium",
+    "salePrice": "1000",
+    "discountPrice": "950"
+  },
+  {
+    "id": 2,
+    "productImg": "assets/img/products/sofa(2).png",
+    "productName": "Sofa",
+    "productDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "tags": "Luxury",
+    "salePrice": "2000",
+    "discountPrice": "1000"
+  },
+  {
+    "id": 3,
+    "productImg": "assets/img/products/sofa(3).png",
+    "productName": "Sofa",
+    "productDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "tags": "Elegant",
+    "salePrice": "750",
+    "discountPrice": "500"
+  },
+  {
+    "id": 4,
+    "productImg": "assets/img/products/shelf.png",
+    "productName": "Shelf",
+    "productDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "tags": "Storage",
+    "salePrice": "100",
+    "discountPrice": "99"
+  },
+  {
+    "id": 5,
+    "productImg": "assets/img/products/bed.png",
+    "productName": "Beds",
+    "productDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "tags": "Elegant",
+    "salePrice": "1000",
+    "discountPrice": "800"
+  },
+  {
+    "id": 6,
+    "productImg": "assets/img/products/chairs.png",
+    "productName": "Chairs",
+    "productDesc": "Some quick example text to build on the card title and make up the bulk of the card's content.",
+    "tags": "Premium",
+    "salePrice": "1000",
+    "discountPrice": "900"
+  }
+]
