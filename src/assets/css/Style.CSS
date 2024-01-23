@@ -1,81 +1,86 @@
-.banner {
-  width: 100%;
-  height: auto;
-}
-h3.about-me {
-  text-align: center;
-}
-p.about-me-paragraph {
-  text-align: left;
-}
-.about-me-img {
-  border: 4px;
-  align-self: center;
-  border-color: red;
-}
-.about-me-container {
-  background: rgb(216, 216, 216);
-  padding: 10px;
-}
-.protect-container {
-  border: 3px solid gray;
-  padding: 10px;
-  text-align: center;
-  background-color: rgb(255, 244, 244);
-}
-.protect-container:hover {
-  background-color: rgb(255, 178, 178);
+p {
+    color: #031012;
 }
 
-.product-name {
-  font-weight: bold;
-  text-align: center;
+body {
+    background-color: #f4fcfd;
 }
-.price {
-  font-weight: bold;
-  color: green;
+.txt-alt{
+    color: #f4fcfd;
 }
-.product-list {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background-color: rgb(255, 244, 244);
+.txt-clr{
+    color: #031012;
 }
-.footer {
-  background-color: #343a40 !important;
-  padding: 10px;
-  min-height: 25%;
-}
-.footer-p {
-  text-align: right;
-  color: rgb(201, 201, 201);
-}
-.footer-h {
-  text-align: center;
-  color: rgb(255, 112, 112);
-}
-.footer-about-me {
-  border-right: 5px solid black;
-  min-height: 25%;
-}
-.footer-use-link {
-  border-right: 5px solid black;
-  min-height: 25%;
-}
-.footer-contacts {
-  padding-left: 10px;
-  min-height: 25%;
+/* backgrounds */
+.bg-clr-primary {
+    background-color: #2fc2da !important;
 }
 
-.link {
-  color: red;
+.bg-clr-secondary {
+    background-color: #8a92ea !important;
 }
 
-.side-p {
-  text-align: left;
-  color: rgb(201, 201, 201);
+.bg-clr-accent {
+    background-color: #6c53e0 !important;
 }
 
-.footer-img {
-  width: 100px;
-  height: 100px;
+.bg-clr-sec-shade {
+    background-color: #8a92ea66 !important;
 }
+
+.bg-clr-sec-shade {
+    background-color: #8a92ea73 !important;
+}
+
+.bg-clr-pri-shade {
+    background-color: #a8e6f0 !important;
+}
+
+
+/* colors */
+.clr-primary {
+    color: #2fc2da !important;
+}
+
+.clr-secondary {
+    color: #8a92ea !important;
+}
+
+.clr-accent {
+    color: #6c53e0 !important;
+}
+
+.bg-shade {
+    color: #e6f0f1 !important;
+}
+
+.clr-sec-shade {
+    color: #8a92ea73 !important;
+}
+
+.clr-pri-shade {
+    color: #a8e6f0 !important;
+}
+
+.nav-brand-logo {
+    width: 50px;
+    height: 50px;
+
+}
+
+div.breaker {
+    margin: 20px;
+    text-align: center;
+}
+
+.showme {
+    display: none;
+}
+
+.showhim:hover .showme {
+    display: block;
+    background-image: linear-gradient(180deg,#000000cf,#00000021);
+}
+/* <div class="showhim">HOVER ME
+  <div class="showme">hai</div>
+</div> */

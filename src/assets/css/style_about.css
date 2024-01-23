@@ -73,11 +73,11 @@ div.breaker {
     text-align: center;
 }
 
-.cshowme {
+.showme {
     display: none;
 }
 
-.cshowhim:hover .cshowme {
+.showhim:hover .showme {
     display: block;
 }
 /* <div class="showhim">HOVER ME

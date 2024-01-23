@@ -1,1 +1,161 @@
-<p>shopdetailspage works!</p>
+<!-- details -->
+<section>
+    <div class="container m-4">
+        <div class="row">
+            <!-- img carousel -->
+            <div class="col-sm">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/products/sofa(1).png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/products/sofa(2).png" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/products/sofa(3).png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- details -->
+            <div class="col-sm">
+                <p class="h3">Comfortable Sofa <br></p>
+                <p class="h4 fw-bold">$ 500</p>
+                <p class="clr-secondary">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <i class="fa-regular fa-star"></i>
+                    <span class="muted">10 Reviews</span>
+                </p>
+                <p class="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam, culpa obcaecati.
+                    Molestiae, soluta dolorum! Ea, vitae. Ab vero cumque quas optio quisquam perferendis sunt libero
+                    nisi quod! Ut, dolores incidunt. <br></p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad fugit quae laboriosam dolorem odit,
+                    non laudantium amet? Tempore neque, vero atque, ipsam voluptate, tempora sunt eos cumque facilis
+                    iste ea? <br></p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, dolores qui eum nam minus amet
+                    odio autem doloribus. Perferendis, excepturi omnis. Aut saepe autem asperiores architecto
+                    dolores non! Necessitatibus, eum! <br></p>
+
+                <label class="fw-bold" for="quantity">Quantity:</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" placeholder="1">
+                <hr>
+                <button class="px-5 btn btn-outline-dark bg-clr-primary" type="button">
+                    Buy Now! <i class="fa-solid fa-dollar-sign"></i>
+                </button>
+                <button class="mx-3 px-3 btn btn-outline-secondary" type="button">
+                    ADD TO CART <i class="fa-solid fa-cart-shopping"></i>
+                </button>
+
+                <!-- accordian -->
+                <div class="accordion accordion-flush my-4" id="detailExpandables">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                aria-controls="flush-collapseOne">
+                                Materials
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#detailExpandables">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Pure leather</li>
+                                    <li>Teak wood</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                aria-controls="flush-collapseTwo">
+                                Watch a Video
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#detailExpandables">
+                            <div class="accordion-body">
+                                <div class="ratio ratio-21x9">
+                                    <iframe src="assets/videos/D_Nomad-GIF-Sharpened.mp4" title="YouTube video"
+                                        allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                aria-controls="flush-collapseThree">
+                                How to use
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#detailExpandables">
+                            <div class="accordion-body">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex aspernatur soluta sed,
+                                molestias maxime in esse distinctio nihil eos recusandae delectus temporibus alias
+                                nisi reprehenderit corrupti veritatis itaque, voluptates perferendis! <b>Lorem,
+                                    ipsum dolor sit amet consectetur adipisicing elit.</b> Iusto quae possimus
+                                dolorem
+                                velit, ipsum odit doloremque placeat harum iure odio optio nisi eligendi
+                                quibusdam corrupti quis, atque ab ullam voluptas.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingFour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                aria-controls="flush-collapseFour">
+                                Why buy the sofa
+                            </button>
+                        </h2>
+                        <div id="flush-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingFour" data-bs-parent="#detailExpandables">
+                            <div class="accordion-body">
+                                <ul>
+                                    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+                                        doloremque culpa aperiam at harum placeat itaque ratione minima, delectus
+                                        numquam possimus sed blanditiis architecto optio ipsam. Expedita cupiditate
+                                        numquam necessitatibus?</li>
+                                    <li>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel velit fugit,
+                                        laudantium quidem delectus voluptas. Corporis, harum at. Dolorem in veniam
+                                        minima quas facere, aliquid asperiores possimus repellendus nihil. Vero!
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+</section>
